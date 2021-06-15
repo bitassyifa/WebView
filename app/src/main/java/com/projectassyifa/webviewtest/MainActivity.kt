@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     private fun webViewSetup() {
         wb_webView.webViewClient = WebViewClient()
         wb_webView.apply {
-            loadUrl("https://alshifacharity.com/")
+            loadUrl("http://202.62.9.138/dashboard_android_fresh")
             settings.javaScriptEnabled = true
             settings.safeBrowsingEnabled = true
 
